@@ -1,0 +1,41 @@
+.PersonalPage {
+    width: 100%;
+}
+
+.navbar-button {
+    font-family: 'Julius Sans One', sans-serif;
+    cursor: pointer;
+    border-radius: 0.1rem;
+    margin-right: 2.5rem;
+    padding-top: 0.31rem;
+    padding-bottom: 0.31rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: black;
+    font-size: 1.3vw;
+}
+
+.navbar-button:hover {
+    color: rgb(150, 150, 160);
+}
+
+#navbar {
+    width: 100%;
+    padding: 1.55vw;
+    position: fixed;
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: 'Julius Sans One', sans-serif !important;
+    font-weight: 700;
+    z-index: 8;
+}
+
+.plugin-section {
+    min-height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    padding:0;
+    margin:0;
+   }

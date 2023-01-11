@@ -1,0 +1,9 @@
+# List of plugins to be registered by framework.
+# Provide fully qualified class names here ( edu.cmu.cs.cs214.rec09.plugin.XXX ),
+# with one plugin per line.s
+
+edu.cmu.cs.cs214.hw6.plugins.PDFPlugin
+edu.cmu.cs.cs214.hw6.plugins.JSONPlugin
+edu.cmu.cs.cs214.hw6.plugins.TXTPlugin
+edu.cmu.cs.cs214.hw6.plugins.DOCXPlugin
+edu.cmu.cs.cs214.hw6.plugins.RTFPlugin

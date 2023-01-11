@@ -1,0 +1,116 @@
+.ResumeSetup {
+    width: 100%;
+    height: 100%;
+}
+
+#resume-input {
+    width: 350px;
+}
+
+#personal-page-link {
+    display: none;
+}
+
+#resume-input-container {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#bg-top {
+    background-color: #f5f8fb;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    justify-content: center;
+}
+
+.title {
+    font-size: 50px;
+    margin: 0px !important;
+    font-family: 'Manrope', sans-serif;
+}
+
+#background-img {
+    width: 45%;
+    position: absolute;
+    right: 2%;
+    top: 150px;
+}
+
+#generate-button {
+    background-color: #fa2356;
+    color: white;
+    margin-top: 40px;
+}
+
+#generate-button:hover {
+    background-color:rgba(250, 35, 86, 0.85);
+}
+
+#introduction-area {
+    width: 650px;
+    margin-top: 50px;
+}
+
+#bg-bottom {
+    padding: 100px 0px 200px 0px;
+    display: flex;
+}
+
+.photo-container {
+    width: 40%;
+    position: relative;
+}
+
+.introduction-container {
+    width: 60%;
+}
+
+#photo {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+}
+
+#photo-input {
+    display: none;
+}
+
+.sub-title {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px 20px 0px;
+    font-size: 20px;
+}
+
+#parse-error {
+    visibility: hidden;
+    width: 550px;
+    display: block;
+    margin: 0px;
+}
+
+#parse-success {
+    visibility: hidden;
+    width: 550px;
+    display: none;
+    margin: 0px;
+}
+
+#intro-error {
+    width: 650px;
+    visibility: hidden;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#photo-error {
+    width: 650px;
+    visibility: hidden;
+    display: none;
+    margin-bottom: 10px;
+}

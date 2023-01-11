@@ -1,0 +1,18 @@
+.WordCountPlugin {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 10%;
+}
+
+.word-count-title-container {
+    margin-bottom: 20px;
+}
+
+.word-count-title {
+    font-size: 22px;
+    font-family: 'Julius Sans One', sans-serif;
+}

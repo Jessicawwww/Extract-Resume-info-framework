@@ -1,0 +1,30 @@
+.AboutMePlugin {
+    padding: 150px 200px 100px 120px;
+    display: flex;
+    background-color: #fafafa;
+}
+
+#about-me-photo {
+    object-fit: cover;
+    width: 450px;
+    height: 600px;
+}
+
+#about-me-intro {
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+}
+
+#about-me-greeting {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-family: 'Playfair Display',sans-serif;
+}
+
+.about-me-title {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 0px;
+}
